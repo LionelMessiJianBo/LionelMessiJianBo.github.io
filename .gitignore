@@ -1,0 +1,87 @@
+://www.gitignore.io/api/macos,objective-c创建
+
+＃＃＃ 苹果系统 ＃＃＃
+* .DS_Store
+.AppleDouble
+.LSOverride
+
+＃图标必须以两个\ r结尾
+图标
+
+＃缩略图
+._ *
+
+＃可能出现在卷的根目录中的文件
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+＃远程AFP共享上可能创建的目录
+.AppleDB
+.AppleDesktop
+网络垃圾箱文件夹
+临时项目
+.apdisk
+
+### Objective-C ###
+＃Xcode
+＃
+＃gitignore贡献者：记得更新全局/ Xcode.gitignore，Objective-C.gitignore和Swift.gitignore
+
+##生成生成
+建立/
+DerivedData /
+
+##各种设置
+* .pbxuser
+！default.pbxuser
+* .mode1v3
+！default.mode1v3
+* .mode2v3
+！default.mode2v3
+* .perspectivev3
+！default.perspectivev3
+xcuserdata /
+
+##其他
+* .moved预留
+* .xccheckout
+* .xcscmblueprint
+
+## Obj-C / Swift具体
+* .hmap
+*的.ipa
+* .dSYM.zip
+* .dSYM
+
+＃CocoaPods  - 重构为独立文件
+
+
+＃迦太基 - 重构为独立的文件
+
+＃ 快车道
+＃
+＃建议不要将截图存储在git仓库中。相反，使用fastlane重新生成
+＃需要的时候截图。
+＃有关建议的设置访问的更多信息：
+＃https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+FASTLANE / report.xml将
+FASTLANE / Preview.html
+FASTLANE /截图
+FASTLANE / test_output
+
+＃代码注入
+＃
+＃新的代码注入工具后，有一个生成的文件夹/ iOSInjectionProject
+＃https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject /
+
+### Objective-C补丁###
+
+＃https://www.gitignore.io/api/macos,objective-c的结尾
